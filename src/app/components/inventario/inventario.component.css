@@ -1,0 +1,23 @@
+.player-cards {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.player-cards--empty {
+  justify-content: start;
+}
+
+.draw-card-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.draw-card {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}

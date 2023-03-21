@@ -1,0 +1,15 @@
+<button (click)="shuffle()">Shuffle</button>
+<button (click)="dealCards()">Deal Cards</button>
+
+<div class="player-cards" [ngClass]="{'player-cards--empty': !playerCards.length}">
+  <h4>Player Cards</h4>
+  <p *ngFor="let card of playerCards">
+    {{ card.color }} {{ card.value || card.type }}
+  </p>
+</div>
+<div class="draw-card-container">
+  <h4>Draw Card</h4>
+  <p *ngIf="drawCard" class="draw-card">
+    {{ drawCard.color }} {{ drawCard.value || drawCard.type }}
+  </p>
+</div>
