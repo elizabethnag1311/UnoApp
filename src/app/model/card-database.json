@@ -1,0 +1,33 @@
+{
+  "colores": [
+    {
+      "color": "rojo",
+      "numeros": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+      "saltar": 2,
+      "reversa": 2,
+      "toma_dos": 2
+    },
+    {
+      "color": "amarillo",
+      "numeros": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+      "saltar": 2,
+      "reversa": 2,
+      "toma_dos": 2
+    },
+    {
+      "color": "verde",
+      "numeros": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+      "saltar": 2,
+      "reversa": 2,
+      "toma_dos": 2
+    },
+    {
+      "color": "azul",
+      "numeros": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+      "saltar": 2,
+      "reversa": 2,
+      "toma_dos": 2
+    }
+  ],
+  "especiales": [{ "cambio_color": 4 }, { "toma_cuatro_cambio_color": 4 }]
+}
