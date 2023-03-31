@@ -5,7 +5,7 @@ import { UNOService } from "../../services/uno.service";
 @Component({
   selector: 'app-inventario',
   templateUrl: './inventario.component.html',
-  styleUrls: ['./inventario.component.css']
+  styleUrls: ['./inventario.component.scss']
 })
 export class InventarioComponent implements OnInit {
 
